@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="phnt\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="phnt\ntdbg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntexapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntgdi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntioapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntkeapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntldr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntlpcapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntmisc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntmmapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntnls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntobapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpebteb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpfapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpnpapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpoapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntpsapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntregapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntrtl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntsam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntseapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntsmss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\nttmapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\nttp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntwow64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntxcapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\ntzwapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\phnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\phnt_ntdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\phnt_windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\subprocesstag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="phnt\winsta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
