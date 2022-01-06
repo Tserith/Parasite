@@ -8,7 +8,7 @@
 !Driver/*.filters
 !Driver/*.cpp
 !Parasite
-!Parasite/bootkit.h
+!Parasite/*.h
 !Parasite/*.c
 !Parasite/*.py
 !Parasite/*.vcxproj
@@ -19,3 +19,4 @@
 !Parasite/bootkit/*.asm
 !img
 !img/*.PNG
+Parasite/driver.h
