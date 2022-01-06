@@ -1,8 +1,8 @@
 # Parasite
 
-Parasite is a two sector MBR bootkit for x64 Windows. This project is a proof of concept written for educational purposes. Tested on Windows 10 version 21H2.
+Parasite is a two sector MBR bootkit for x64 Windows. This project is a proof of concept written for educational purposes. Tested on Windows 10 version 21H2. If installed, **there is no guarantee your OS will boot.**
 
-If installed, **there is no guarantee your OS will boot.**
+![](img/PreElam.PNG)
 
 ### Features
 
@@ -15,7 +15,3 @@ If installed, **there is no guarantee your OS will boot.**
 - Installer requires Administrator privileges
 - Max driver size of ~58KB
 - Only supports legacy boot
-
-
-
-![](img/PreElam.PNG)
