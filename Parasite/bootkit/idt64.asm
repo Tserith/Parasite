@@ -91,7 +91,7 @@ ValidateImagePattern:
     cmp eax, 0xC000022D
 ValidateImagePatternEnd:
 
-; filecrypt.sys was choosen because it is:
+; filecrypt.sys was chosen because it is:
 ;   - sufficiently large
 ;   - readable in a single int 13h call
 ;   - not loaded until after kernel initialization

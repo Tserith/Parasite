@@ -129,7 +129,7 @@ FindBootmgr32End:
                                 ; memset
     mov cx, -1                  ; cover the spoofed driver
     mov al, 0                   ; value
-    xor di, di                  ; offset zero incase the driver is loaded in peices
+    xor di, di                  ; offset zero incase the driver is loaded in pieces
     rep stosb
                                 ; spoof driver
     mov ax, DRV_SIZE_MAGIC      ; sectors to read

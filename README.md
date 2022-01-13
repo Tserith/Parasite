@@ -14,4 +14,4 @@ Parasite is a two sector MBR bootkit for x64 Windows. This project is a proof of
 
 - Installer requires Administrator privileges
 - Max driver size of ~58KB
-- Only supports legacy boot
+- Does not support uninstallation
